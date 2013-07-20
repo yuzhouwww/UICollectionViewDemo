@@ -18,6 +18,13 @@
 		B5D90BC81785D74700A28F92 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5D90BC71785D74700A28F92 /* Default-568h@2x.png */; };
 		B5D90BCB1785D74700A28F92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D90BCA1785D74700A28F92 /* ViewController.m */; };
 		B5D90BCE1785D74800A28F92 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5D90BCC1785D74800A28F92 /* ViewController.xib */; };
+		B5D90BD61785DFFD00A28F92 /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D90BD51785DFFD00A28F92 /* ItemCell.m */; };
+		B5D90BD81785E01300A28F92 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5D90BD71785E01300A28F92 /* ItemCell.xib */; };
+		B5D90BDB1785F38700A28F92 /* CustomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D90BDA1785F38700A28F92 /* CustomLayout.m */; };
+		B5D90BDD1786BCD600A28F92 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D90BDC1786BCD600A28F92 /* QuartzCore.framework */; };
+		B5D90BE11786CA8900A28F92 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = B5D90BDE1786CA8900A28F92 /* 0.png */; };
+		B5D90BE21786CA8900A28F92 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = B5D90BDF1786CA8900A28F92 /* 1.png */; };
+		B5D90BE31786CA8900A28F92 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = B5D90BE01786CA8900A28F92 /* 2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +44,15 @@
 		B5D90BC91785D74700A28F92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B5D90BCA1785D74700A28F92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B5D90BCD1785D74800A28F92 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		B5D90BD41785DFFD00A28F92 /* ItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCell.h; sourceTree = "<group>"; };
+		B5D90BD51785DFFD00A28F92 /* ItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCell.m; sourceTree = "<group>"; };
+		B5D90BD71785E01300A28F92 /* ItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
+		B5D90BD91785F38700A28F92 /* CustomLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLayout.h; sourceTree = "<group>"; };
+		B5D90BDA1785F38700A28F92 /* CustomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLayout.m; sourceTree = "<group>"; };
+		B5D90BDC1786BCD600A28F92 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B5D90BDE1786CA8900A28F92 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		B5D90BDF1786CA8900A28F92 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		B5D90BE01786CA8900A28F92 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5D90BDD1786BCD600A28F92 /* QuartzCore.framework in Frameworks */,
 				B5D90BB21785D74700A28F92 /* UIKit.framework in Frameworks */,
 				B5D90BB41785D74700A28F92 /* Foundation.framework in Frameworks */,
 				B5D90BB61785D74700A28F92 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +73,7 @@
 		B5D90BA51785D74700A28F92 = {
 			isa = PBXGroup;
 			children = (
+				B5D90BDC1786BCD600A28F92 /* QuartzCore.framework */,
 				B5D90BB71785D74700A28F92 /* CollectionViewTest */,
 				B5D90BB01785D74700A28F92 /* Frameworks */,
 				B5D90BAF1785D74700A28F92 /* Products */,
@@ -88,6 +106,14 @@
 				B5D90BC91785D74700A28F92 /* ViewController.h */,
 				B5D90BCA1785D74700A28F92 /* ViewController.m */,
 				B5D90BCC1785D74800A28F92 /* ViewController.xib */,
+				B5D90BD41785DFFD00A28F92 /* ItemCell.h */,
+				B5D90BD51785DFFD00A28F92 /* ItemCell.m */,
+				B5D90BD71785E01300A28F92 /* ItemCell.xib */,
+				B5D90BD91785F38700A28F92 /* CustomLayout.h */,
+				B5D90BDA1785F38700A28F92 /* CustomLayout.m */,
+				B5D90BDE1786CA8900A28F92 /* 0.png */,
+				B5D90BDF1786CA8900A28F92 /* 1.png */,
+				B5D90BE01786CA8900A28F92 /* 2.png */,
 				B5D90BB81785D74700A28F92 /* Supporting Files */,
 			);
 			path = CollectionViewTest;
@@ -163,6 +189,10 @@
 				B5D90BC61785D74700A28F92 /* Default@2x.png in Resources */,
 				B5D90BC81785D74700A28F92 /* Default-568h@2x.png in Resources */,
 				B5D90BCE1785D74800A28F92 /* ViewController.xib in Resources */,
+				B5D90BD81785E01300A28F92 /* ItemCell.xib in Resources */,
+				B5D90BE11786CA8900A28F92 /* 0.png in Resources */,
+				B5D90BE21786CA8900A28F92 /* 1.png in Resources */,
+				B5D90BE31786CA8900A28F92 /* 2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +206,8 @@
 				B5D90BBE1785D74700A28F92 /* main.m in Sources */,
 				B5D90BC21785D74700A28F92 /* AppDelegate.m in Sources */,
 				B5D90BCB1785D74700A28F92 /* ViewController.m in Sources */,
+				B5D90BD61785DFFD00A28F92 /* ItemCell.m in Sources */,
+				B5D90BDB1785F38700A28F92 /* CustomLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +257,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -248,7 +280,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -296,6 +328,7 @@
 				B5D90BD31785D74800A28F92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
